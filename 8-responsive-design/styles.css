@@ -25,7 +25,12 @@
 }
 
 .header {
-  background-color: #b2d6ff;
+  height: auto;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
 }
 
 .content {
@@ -47,6 +52,11 @@
 
 .feature-3 {
   background-color: #c8c6fa;
+}
+
+.illustration img {
+  width: 100%;
+  max-width: 500px;
 }
 
 /* Media Queries */
