@@ -9,6 +9,7 @@ Meu objetivo ao seguir essas aulas é de aprender os fundamentos e não depender
 - Como estruturar páginas com HTML5
 - Compreensão do objetivo do HTML e CSS (significado e conteúdo vs estilização)
 - Atributos básicos e mais usados do CSS
+- HTML semântico
 - Flexbox
 - Layout e imagens responsivos
 - Formulários
