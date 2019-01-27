@@ -25,8 +25,53 @@
         </div>
         <div class="form-row">
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@example.com"
+          />
         </div>
+        <fieldset class="legacy-form-row">
+          <legend>Type of Talk</legend>
+          <input type="radio" name="talk-type" id="talk-type-main" checked />
+          <label for="talk-type-main" class="radio-label">Main Stage</label>
+          <input type="radio" name="talk-type" id="talk-type-workshop" />
+          <label for="talk-type-workshop" class="radio-label">Workshop</label>
+        </fieldset>
+
+        <div class="form-row">
+          <label for="t-shirt">T-Shirt Size</label>
+          <select id="t-shirt" name="t-shirt">
+            <option value="xs">Extra Small</option>
+            <option value="s">Small</option>
+            <option value="m">Medium</option>
+            <option value="l">Large</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="abstract">Abstract</label>
+          <textarea
+            name="abstract"
+            id="abstract"
+            maxlength="500"
+            placeholder="Describe your talk in 500 words or less"
+            required
+          ></textarea>
+        </div>
+        <div class="form-row">
+          <label for="avaliable" class="checkbox-label">
+            <input
+              type="checkbox"
+              id="avaliable"
+              name="avaliable"
+              value="is-avaliable"
+            />
+            <span>I'm actually avaliable at the date of the talk</span>
+          </label>
+        </div>
+
+        <div class="form-row"><button type="submit">Submit</button></div>
       </form>
     </main>
   </body>
